@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="15dp" android:layout_margin="10dp">
+
+
+    <EditText
+        android:id="@+id/uName"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="User Name"
+        android:textSize="20sp"
+        android:textColor="#0416B8"/>
+
+    <EditText
+        android:id="@+id/uEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="User Email"
+        android:inputType="textEmailAddress"
+        android:textColor="#0416B8"
+        android:textSize="20sp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/uName"/>
+
+    <EditText
+        android:id="@+id/uBalance"
+        android:inputType="number"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:hint="User Balance"
+        android:layout_marginTop="10dp"
+        android:textSize="20sp"
+        android:layout_below="@+id/uEmail"
+        android:textColor="#0416B8"/>
+
+</RelativeLayout>
